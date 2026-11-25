@@ -30,4 +30,8 @@
 
 ## Bundle / check
 
-- (To be recorded after the real bundle + check run: bundle file, sha256, size, usage rows attached, check passed/failed counts.)
+### Bundle v1 (25 Nov 2026, commit f04464ed83aa8c8a14ac4be66c768ada52826b79)
+- Command: kit CLI `bundle --repo <repo> --out u-ronigrv-make-the-ai-judge-laugh-8db2407a-bundle.tar.gz --session ~/agents/agent-2ff9c6ae-484c-43fc-ada7-a67308958c33/sessions/2ff9c6ae-484c-43fc-ada7-a67308958c33.jsonl --no-discover --no-family --parent-session ~/workspace/make-fun/chief-parent-prompt.jsonl --prompt-file prompt-judge-laugh-ronigrv.txt --prompt-origin other --prompt-via "Coordinator brief via subagent spawn 25 Nov 2026 (Septian ACC 09:20 WITA)" --harness muse-app --harness-version 1.3 --provider meta --model muse-spark-1.3 --effort default --mcp none --redact "Septian Panjaya"`.
+- Result: wrote bundle, 820,361 bytes, sha256 `ee375b523d2c13dd2a959fcdf6ca14382e837200f7f6dd2ad807f06305fa7d67`. 1 session file (16 turns, 66 lines), 3 instruction files, redactions applied (7 emails, 19 home paths, 52 usernames, 5 personal details).
+- Usage rows: 0 attached — EXPECTED while this subagent run is still live (a subagent's usage row is written only once its run completes). The coordinator re-bundles with --muse-usage after this run ends. Do NOT submit the v1 bundle as-is.
+- Check v1 result: (to be recorded after the check run below.)
